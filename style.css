@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #160707;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+}
+.menu-item{
+    padding: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    background-color: #A77979;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hire-button{
+    padding: 15px 30px;
+    background-color: #160707;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.photo{
+    border: #160707;
+    border-radius: 50%;
+}
+.skill-container{
+    width: 100%;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #704F4F;
+}
+.skill-header{
+    text-align: center;
+    color: #160707;
+    background-color: #704F4F;
+    width: 100%;
+    height: 50px;
+    margin-top: -25px;
+    padding: 15px;
+}
+.skill-item{
+    width: 25%;
+    border-radius: 5%;
+    background-color: #160707;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 4px 8px 16px rgb(146, 129, 129);
+}
+.skill-item img{
+    width:100px;
+    border:#160707;
+    background-color: white;
+    border-radius: 15%;
+}
+.about{
+    text-align: justify;
+    padding:80px;
+    color: #160707;
+    background-color: #eeacac;
+}
+.about h2{
+    display: inline;
+}
+.about h1{
+    text-align: center;
+}
