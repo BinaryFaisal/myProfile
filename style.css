@@ -34,6 +34,7 @@ nav{
     border: none;
 }
 .photo{
+    width: 300px;
     border: #160707;
     border-radius: 50%;
 }
